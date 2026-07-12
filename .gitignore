@@ -1,0 +1,51 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Variables de entorno y secretos
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/*
+!logs/.gitkeep
+*log.
+
+# Datos recopilados
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Archivos temporales
+*.tmp
+*.temp
+
+
+# Cobertura de pruebas
+htmlcov/
+.coverage
+
+# Distribución
+build/
+dist/
+*.egg-info/
