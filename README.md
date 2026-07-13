@@ -77,7 +77,7 @@ requirements.txt
 ## Roadmap
 
 - [x] Project definition
-- [ ] Database design
+- [x] Database design
 - [ ] PostgreSQL integration
 - [ ] First web scraper
 - [ ] ETL pipeline
@@ -100,7 +100,7 @@ Additional technical documentation is available inside the **docs/** directory.
 
 Current Phase:
 
--Project Planning
+-PostgreSQL Schema Implementation
 
 
 ## Author
