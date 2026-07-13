@@ -1,11 +1,11 @@
 # Project scope
---- 
+ 
 
 # Project Name
 
 E-commerce Price Tracker
 
---- 
+ 
 
 # Project Vision
 
@@ -16,7 +16,7 @@ notifications when predefined purchase conditions are met.
 Altought inspired by existing price tracking tools. this project is designed as a learnin platform 
 to demonstrate software enfineering, data engineering and linux administration skills.
 
---- 
+ 
 
 # Problem Statement
 
@@ -30,17 +30,17 @@ The lack of historical data makes it difficult to determine whether a current of
 This project aims to solve that problem by building a historical database of product prices collected
 automatically over time.
 
---- 
+ 
 
 # Objectives
 
-## Primary objective
+# Primary objective
 
 Build a complete end-to-end Data Engineering project suitable for a professional portfolio.
 
---- 
+ 
 
-## Technical Objectives
+# Technical Objectives
 
 - Practice Python development.
 - Design a relational database.
@@ -51,7 +51,7 @@ Build a complete end-to-end Data Engineering project suitable for a professional
 - Create Professional documentation.
 - Develop clean and maintainable code.
 
---- 
+ 
 
 # Target Users
 
@@ -62,7 +62,7 @@ The application is intended for:
 - Data engineering recruiters
 - Software enfineering recruiters
 
---- 
+ 
 
 
 # Minimum Viable Product (MVP)
@@ -77,7 +77,7 @@ Version 1.0 will include:
 - Manual execution.
 - Historical price visualization.
 
---- 
+ 
 
 # Out of Scope
 
@@ -97,7 +97,7 @@ The following features are instentionally excluded from the first version:
 
 These features will be implemented in future versions.
 
---- 
+ 
 
 # Success Criteria
 
@@ -110,7 +110,7 @@ The MVP will be considered successful if:
 - The codebase is modular and documented.
 - The project is fully versioned in GitHub.
 
---- 
+ 
 
 # Constraints
 
@@ -121,7 +121,7 @@ Current constraints include:
 - Limited infrastructure.
 - Local deployment during development.
 
---- 
+ 
 
 # Assumptions
 
@@ -132,7 +132,7 @@ The project assumes:
 - Ubuntu Linux as the primary development enviorment.
 - Python asa the main programming language.
 
---- 
+ 
 
 # Project Status
 

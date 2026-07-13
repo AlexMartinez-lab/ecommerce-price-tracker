@@ -1,18 +1,21 @@
-# E-commerce Price Tracker
+## E-commerce Price Tracker
 
 Data engineering project for collecting, processing, storing and analyzing historical prices of products from
 e-commerce websites.
 
-## Project objetive
+# Project objetive
 The goal is to build a production-inspire data pipeline capable of tracking products over time, comparing prices
 across stores and providing useful insights for purchase decisions.
 
-## Current
+# Current
 - Project initialization
-- Development enviorment setup
-- Project documentation
+- Technical documentation
+- PostgreSQL relational schema
+- Database constraints and indexes
+- Initial development seed data
 
-## Planned
+
+# Planned
 - Product price tracking
 - Historical price storage
 - Multi-store comparison
@@ -22,50 +25,52 @@ across stores and providing useful insights for purchase decisions.
 - REST API
 - Interactive dashboard
 
-## Technology Stack
-| Category	 | Technology   	|\
-|---------------------------------------|\
-|Language  	 | Python       	|\
+# Technology Stack
+'''text
+| Category	 | Technology   	|
+|---------------------------------------|
+|Language  	 | Python       	|
 
-|Database  	 | PostgreSQL   	|\	
+|Database  	 | PostgreSQL   	|	
 
-|OS        	 | Ubuntu-Linux 	|\
+|OS        	 | Ubuntu-Linux 	|
 
-|Data Processing | Pandas 		|\
+|Data Processing | Pandas 		|
 
-|Web Scraping    | Request, Beatifulsoup|\	
+|Web Scraping    | Request, Beatifulsoup|	
 
-|Version control | Git & Github	        |\
+|Version control | Git & Github	        |
 
-|Future          | FastAPI, Docker      |\
-
-
-
-
-
-## Planned architecture
-
-   E-commerce 
-	|
-	
-   Web scraper
-	|
-	
-  Data processing
-	|
-	 
-  PostgreSQL
-	|
-	 
-  Analytics	
-	|
-	
-Dashboard / API
-
-
-## Repository Structure
+|Future          | FastAPI, Docker      |
 
 '''
+
+
+
+# Planned architecture
+'''text
+   E-commerce 
+	|
+	v
+   Web scraper
+	|
+	v
+  Data processing
+	|
+	v 
+  PostgreSQL
+	|
+	v 
+  Analytics	
+	|
+	v	
+Dashboard / API
+
+'''
+
+# Repository Structure
+
+'''text
 e-commerce-price-tracker/
 
 docs/
@@ -80,11 +85,11 @@ requirements.txt
 .gitignore
 '''
 
-## Roadmap
+# Roadmap
 
 - [x] Project definition
 - [x] Database design
-- [ ] PostgreSQL integration
+- [x] PostgreSQL integration
 - [ ] First web scraper
 - [ ] ETL pipeline
 - [ ] Historical database
@@ -95,21 +100,21 @@ requirements.txt
 - [ ] Docker deployment
 
 
-## Documentation
+# Documentation
 
 Additional technical documentation is available inside the **docs/** directory.
 
 
-## Project Status
+# Project Status
 
 - Active Development
 
 Current Phase:
 
--PostgreSQL Schema Implementation
+-Python Database Integration
 
 
-## Author
+# Author
 
 Alejandro Martinez
 

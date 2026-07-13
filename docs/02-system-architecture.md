@@ -1,6 +1,6 @@
-# System Architecture
+## System Architecture
 
---- 
+ 
 
 # Purpose
 
@@ -11,11 +11,11 @@ Data Engineering platform where each component has a specific responsability.
 
 The architecture follows the principle of separation of concerns, allowing every module to evolve independently.
 
---- 
+ 
 
 # High-Level Architecture
 
-'''
+'''text
 		User
 		 |
 		 v
@@ -40,9 +40,9 @@ The architecture follows the principle of separation of concerns, allowing every
 	E-commerce Websites
 '''
 
-# System Components
+## System Components
 
-## 1. Data Sources
+# 1. Data Sources
 
 The system collects information from one or more e-commerce websites.
 
@@ -57,9 +57,9 @@ Examples:
 
 Initially only one source will be implemented.
 
---- 
+ 
 
-## 2. Web Scraper
+# 2. Web Scraper
 
 Responsabilities
 
@@ -77,9 +77,9 @@ Output
 
 Raw product data
 
---- 
+ 
 
-## 3. Data Processing
+# 3. Data Processing
 
 Responsabilities
 
@@ -93,9 +93,9 @@ Output
 
 Validated product record
 
---- 
+ 
 
-## 4. ETL Pipeline
+# 4. ETL Pipeline
 
 Responsabilities
 
@@ -111,9 +111,9 @@ Insert processed information into PostgreSQL
 
 The ETL pipeline represent the core of the application.
 
---- 
+ 
 
-## 5. Database
+# 5. Database
 
 Responsabilities
 
@@ -127,9 +127,9 @@ Store:
 
 The database acts as the system's single source of truth.
 
---- 
+ 
 
-## 6. Analytics Layer
+# 6. Analytics Layer
 
 Responsabilities
 
@@ -143,9 +143,9 @@ Generate information such as:
 
 This layer prepares data for visualization.
 
---- 
+ 
 
-## 7. Dashboard
+# 7. Dashboard
 
 Future version will provide:
 
@@ -155,7 +155,7 @@ Future version will provide:
 - Store comparison
 - Purchase alerts
 
---- 
+ 
 
 # Data flow
 
@@ -171,7 +171,7 @@ The complete workflow is:
 8. Analytics are calculated.
 9. Results are displayed.
 
---- 
+ 
 
 # Design Principles
 
@@ -185,7 +185,7 @@ The architecture follows the following principles:
 - Simplicity
 - Extensibility
 
---- 
+ 
 
 # Future Evolution
 
@@ -201,7 +201,7 @@ The architecture has been designed to allow future integration of:
 
 without major redesing.
 
---- 
+ 
 
 # Current Status
 
