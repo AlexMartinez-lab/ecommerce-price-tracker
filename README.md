@@ -1,4 +1,4 @@
-## E-commerce Price Tracker
+# E-commerce Price Tracker
 
 Data engineering project for collecting, processing, storing and analyzing historical prices of products from
 e-commerce websites.
@@ -26,9 +26,12 @@ across stores and providing useful insights for purchase decisions.
 - Interactive dashboard
 
 # Technology Stack
-'''text
+
+
 | Category	 | Technology   	|
+
 |---------------------------------------|
+
 |Language  	 | Python       	|
 
 |Database  	 | PostgreSQL   	|	
@@ -43,27 +46,38 @@ across stores and providing useful insights for purchase decisions.
 
 |Future          | FastAPI, Docker      |
 
-'''
+
 
 
 
 # Planned architecture
 '''text
+
    E-commerce 
+
 	|
 	v
+
    Web scraper
+
 	|
 	v
+
   Data processing
+
 	|
 	v 
+
   PostgreSQL
+
 	|
 	v 
+
   Analytics	
+
 	|
 	v	
+
 Dashboard / API
 
 '''
