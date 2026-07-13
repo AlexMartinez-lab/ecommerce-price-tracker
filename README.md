@@ -15,7 +15,7 @@ across stores and providing useful insights for purchase decisions.
 ## Planned
 - Product price tracking
 - Historical price storage
-- Milti-store comparison
+- Multi-store comparison
 - Price history charts
 - Automated data collection
 - Purchase alerts
@@ -23,15 +23,21 @@ across stores and providing useful insights for purchase decisions.
 - Interactive dashboard
 
 ## Technology Stack
-| Category	 | Technology   	|
-|---------------------------------------|
-|Language  	 | Python       	|
-|Database  	 | PostgreSQL   	|	
-|OS        	 | Ubuntu-Linux 	|
-|Data Processing | Pandas 		|
-|Web Scraping    | Request, Beatifulsoup|	
-|Version control | Git & Github	        |
-|Future          | FastAPI, Docker      |
+| Category	 | Technology   	|\
+|---------------------------------------|\
+|Language  	 | Python       	|\
+
+|Database  	 | PostgreSQL   	|\	
+
+|OS        	 | Ubuntu-Linux 	|\
+
+|Data Processing | Pandas 		|\
+
+|Web Scraping    | Request, Beatifulsoup|\	
+
+|Version control | Git & Github	        |\
+
+|Future          | FastAPI, Docker      |\
 
 
 
@@ -41,19 +47,19 @@ across stores and providing useful insights for purchase decisions.
 
    E-commerce 
 	|
-	v
+	
    Web scraper
 	|
-	v
+	
   Data processing
 	|
-	v 
+	 
   PostgreSQL
 	|
-	v 
+	 
   Analytics	
 	|
-	v
+	
 Dashboard / API
 
 
