@@ -1,4 +1,4 @@
-## System Architecture
+# System Architecture
 
  
 
@@ -15,34 +15,48 @@ The architecture follows the principle of separation of concerns, allowing every
 
 # High-Level Architecture
 
-'''text
+
 		User
+
 		 |
 		 v
+
 	Dashboard / REST API
+
 		 |
 		 v
+
 	  Analytics Layer
+
 	 	 |
 		 v
+
              PostgreSQL
+
 		 |
 		 v	
+
             ETL Pipeline
+
 		 |
  		 v
+
 	   Data processing
+
 		 |
 		 v
+
 	   Web Scrapers
+
 		 |
 		 v
+
 	E-commerce Websites
-'''
 
-## System Components
 
-# 1. Data Sources
+# System Components
+
+## 1. Data Sources
 
 The system collects information from one or more e-commerce websites.
 
@@ -59,7 +73,7 @@ Initially only one source will be implemented.
 
  
 
-# 2. Web Scraper
+## 2. Web Scraper
 
 Responsabilities
 
@@ -79,7 +93,7 @@ Raw product data
 
  
 
-# 3. Data Processing
+## 3. Data Processing
 
 Responsabilities
 
@@ -95,7 +109,7 @@ Validated product record
 
  
 
-# 4. ETL Pipeline
+## 4. ETL Pipeline
 
 Responsabilities
 
@@ -113,7 +127,7 @@ The ETL pipeline represent the core of the application.
 
  
 
-# 5. Database
+## 5. Database
 
 Responsabilities
 
@@ -129,7 +143,7 @@ The database acts as the system's single source of truth.
 
  
 
-# 6. Analytics Layer
+## 6. Analytics Layer
 
 Responsabilities
 
@@ -145,7 +159,7 @@ This layer prepares data for visualization.
 
  
 
-# 7. Dashboard
+## 7. Dashboard
 
 Future version will provide:
 
