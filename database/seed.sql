@@ -1,6 +1,6 @@
 -- ==========================================================
 -- E-commerce Price Tracker
--- Initial development deed data
+-- Initial development seed data
 -- ==========================================================
 
 
