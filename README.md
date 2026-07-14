@@ -13,7 +13,9 @@ across stores and providing useful insights for purchase decisions.
 - PostgreSQL relational schema
 - Database constraints and indexes
 - Initial development seed data
-
+- Secure Python database configuration
+- PostgreSQL connection health check
+- Initial database integration tests
 
 # Planned
 - Product price tracking
@@ -28,6 +30,7 @@ across stores and providing useful insights for purchase decisions.
 # Technology Stack
 
 
+```text
 | Category	 | Technology   	|
 
 |---------------------------------------|
@@ -35,6 +38,10 @@ across stores and providing useful insights for purchase decisions.
 |Language  	 | Python       	|
 
 |Database  	 | PostgreSQL   	|	
+
+|Database Driver | Psycopg 3		|
+
+|Configuration	 | python-dotenv	| 
 
 |OS        	 | Ubuntu-Linux 	|
 
@@ -46,13 +53,13 @@ across stores and providing useful insights for purchase decisions.
 
 |Future          | FastAPI, Docker      |
 
-
+```
 
 
 
 # Planned architecture
-'''text
 
+```text
    E-commerce 
 
 	|
@@ -80,24 +87,32 @@ across stores and providing useful insights for purchase decisions.
 
 Dashboard / API
 
-'''
+```
 
 # Repository Structure
 
-'''text
+```text
 e-commerce-price-tracker/
 
 docs/
+
 src/
+
 tests/
+
 data/
+
 logs/
+
 notebooks/
 
 README.md
+
 requirements.txt
+
 .gitignore
-'''
+
+```
 
 # Roadmap
 
@@ -125,7 +140,7 @@ Additional technical documentation is available inside the **docs/** directory.
 
 Current Phase:
 
--Python Database Integration
+-Database Access Layer
 
 
 # Author
