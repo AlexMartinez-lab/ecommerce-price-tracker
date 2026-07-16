@@ -110,6 +110,7 @@ Future versions may add:
 # Entity Relationship Overview
 
 
+```text
 categories
 
     |
@@ -147,7 +148,7 @@ pipeline_runs
 
 price_history
 
-
+```
 
  
 
@@ -167,6 +168,7 @@ Examples:
 
 Proposed fields:
 
+```text
 
 Field		Type		Description
 
@@ -181,7 +183,7 @@ slug		VARCHAR(120)	URL-friendly identifier
 parent_id	BIGINT		Optional parent category
 
 created_at	TIMESTAMPTZ	Creation timestamp
-
+```
 
 Rules:
 
@@ -205,7 +207,7 @@ Examples:
 
 Proposed fields:
 
-
+```text
 Field		Type		Description
 
 ------------------------------------------------- 
@@ -215,7 +217,7 @@ id		BIGINT		Primary key
 name		VARCHAR(100)	Brand name
 
 created_at	TIMESTAMPTZ	Creation timestamp
-
+```
 
 
 Rules:
@@ -232,7 +234,7 @@ Stores canonical products independently from any store.
 
 Proposed fields:
 
-
+```text
 Field		Type		Description
 
 ------------------------------------------------ 
@@ -256,7 +258,7 @@ active		BOOLEAN		Indicates whether tracking is enabled
 created_id	TIMESTAMPTZ	Creation timestamp
 
 update_id	TIMESTAMPTZ	Last update timestamp
-
+```
 
 Rules:
 
@@ -281,7 +283,7 @@ Examples:
 
 Proposed fields:
 
-
+```text
 Field		Type		Description
 
 ------------------------------------------------------- 
@@ -297,7 +299,7 @@ country_code	CHAR(2)		ISO country code
 active		BOOLEAN		Indicates whether collection is enable
 
 created_id	TIMESTAMPTZ	Creation timestamp
-
+```
 
 
 Rules:
@@ -317,7 +319,7 @@ A store such as Mercado Libre or Amazon may contain multiple third-party sellers
 
 Proposed fields:
 
-
+```text
 Field			Type		Description
 
 ------------------------------------------------------------- 
@@ -333,7 +335,7 @@ name			VARCHAR(255)	Seller display name
 official_store		BOOLEAN		Indicates official brand store
 
 created_at		TIMESTAMPTZ	Creation timestamp
-
+```
 
 
 Rules:
@@ -353,7 +355,7 @@ This is one of the most important tables in the model.
 
 Propose fields:
 
-
+```text
 Field			Type			Description
 
 ---------------------------------------------------------------------- 
@@ -385,7 +387,7 @@ last_seen_at 		TIMESTAMPTZ		Most recent successful observation
 created_at		TIMESTAMPTZ		Record creation timestamp
 
 updated_at		TIMESTAMPTZ		Last update timestamp
-
+```
 
 
 Rules:
@@ -406,7 +408,7 @@ Stores immutable historical observations for every tracked listing.
 
 Proposed fields:
 
-
+```text
 Field			Type		Description
 
 ------------------------------------------------------------- 
@@ -434,7 +436,7 @@ raw_price_text		VARCHAR(100)	Original extracted price text
 observed_at		TIMESTAMPTZ	Observation timestamp
 
 created_at		TIMESTAMPTZ	Database insertion timestamp
-
+```
 
 
 Rules:
@@ -458,7 +460,7 @@ This table will help with monitoring, debugging and Linux automation.
 
 Proposed fields:
 
-
+```text
 Field			Type		Description
 
 ------------------------------------------------------------ 
@@ -482,7 +484,7 @@ error_message		TEXT		General error information
 execution_source	VARCHAR(30)	Manual, cron, API or scheduler
 
 created_at		TIMESTAMPTZ	Record creation timestamp
-
+```
 
 
 Rules:
@@ -623,7 +625,7 @@ Every successful collection creates a new row in price_history.
 
 Example:
 
-
+```text
 listing			Price		Observed At
 
 ------------------------------------------------------------- 
@@ -633,7 +635,7 @@ Product A-Amazon	12500.00	2026-07-10 10:00
 Product A-Amazon	12300.00	2026-07-10 16:00
 
 Product A-Amazon	11999.00	2026-07-11 10:00
-
+```
 
 
 
@@ -974,7 +976,7 @@ PostgreSQL provides:
 
 # MVP Entity Relationship Diagram
 
-
+```text
 |products        |
 
 ----------------- 
@@ -1115,7 +1117,7 @@ PostgreSQL provides:
          | N
 
          -----------> price_history
-
+```
 
 
 

@@ -16,6 +16,12 @@ across stores and providing useful insights for purchase decisions.
 - Secure Python database configuration
 - PostgreSQL connection health check
 - Initial database integration tests
+- Python domain models
+- Repository-based data access layer
+- Product, store and listing persistence
+- Pipeline execution tracking
+- Append-only price history access
+- Repository integration tests
 
 # Planned
 - Product price tracking
@@ -140,7 +146,7 @@ Additional technical documentation is available inside the **docs/** directory.
 
 Current Phase:
 
--Database Access Layer
+- First Data Collection Adapter
 
 
 # Author
