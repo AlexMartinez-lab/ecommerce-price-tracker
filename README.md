@@ -22,6 +22,13 @@ across stores and providing useful insights for purchase decisions.
 - Pipeline execution tracking
 - Append-only price history access
 - Repository integration tests
+- Adapter-based data collection layer
+- Controlled HTML product source
+- Product price normalization
+- Collection error handling
+- Automated collector tests
+
+
 
 # Planned
 - Product price tracking
@@ -125,6 +132,7 @@ requirements.txt
 - [x] Project definition
 - [x] Database design
 - [x] PostgreSQL integration
+- [x] Controlled data collection adapter
 - [ ] First web scraper
 - [ ] ETL pipeline
 - [ ] Historical database
@@ -146,7 +154,7 @@ Additional technical documentation is available inside the **docs/** directory.
 
 Current Phase:
 
-- First Data Collection Adapter
+- ETL Service Integration
 
 
 # Author
